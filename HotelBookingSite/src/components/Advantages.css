@@ -1,0 +1,73 @@
+.advantages {
+    position: relative;
+     height: 810px;
+background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0) 100%), linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://cdn.archpaper.com/wp-content/uploads/2016/12/2494_079D.jpg"), #C4C4C4;
+    }
+    .advantages__info {
+        /* background-color: black; */
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background: transparent;
+        color: white;
+        padding-left: 40px;
+      }
+      .adv__header{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+      }
+      .adv__header > h1{
+        font-family: Lexend;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+height: 60px;
+width: 753px;
+border-radius: nullpx;
+      }
+      .adv__header > h4{
+        font-family: Lexend;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 20px;
+        letter-spacing: 0.5em;
+        text-align: center;
+        height: 20px;
+        width: 518px;
+        border-radius: nullpx;
+                margin-top: 0;
+      }    
+      .adv__h5{
+        font-family: Lexend;
+font-size: 16px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.05em;
+text-align: left;
+height: 20px;
+width: 100%;
+border-radius: nullpx;
+margin-bottom: 0;
+      }
+      .adv__h{
+        font-family: Lexend;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0em;
+text-align: left;
+height: 20px;
+width: 976px;
+border-radius: nullpx;
+margin-top: 0;
+      }
+      .adv__img{
+        height: 50px;
+width: 50px;
+border-radius: 0px;
+margin-right: 20px;
+      }

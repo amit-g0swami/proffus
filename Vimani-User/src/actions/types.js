@@ -1,0 +1,32 @@
+// export const LOGIN_SUCCESS = 'LOGIN_SUCCESS';
+// export const LOGIN_FAIL = 'LOGIN_FAIL';
+// export const LOGOUT_SUCCESS = 'LOGOUT_SUCCESS';
+// export const REGISTER_SUCCESS = 'REGISTER_SUCCESS';
+// export const REGISTER_FAIL = 'REGISTER_FAIL';
+
+// export const USER_LOADING = 'USER_LOADING';
+// export const USER_LOADED = 'USER_LOADED';
+// export const AUTH_ERROR = 'AUTH_ERROR';
+
+// export const POST_LOAD='POST_LOAD';
+// export const POST_LOAD_FAIL='POST_LOAD_FAIL';
+// export const DELETE_POST='DELETE_POST';
+// export const ADD_POST='ADD_POST';
+
+
+// export const POST_DELETE_FAIL='POST_DELETE_FAIL';
+// export const POST_CREATE_FAIL='POST_CREATE_FAIL';
+export const ADD_CATEGORY = "ADD_CATEGORY";
+export const ADD_PRODUCT = "ADD_PRODUCT";
+
+export const ADD_CART = "ADD_CART";
+
+export const REMOVE_CART = "REMOVE_CART";
+export const INCREASE_QUANTITY = "INCREASE_QUANTITY";
+export const DECREASE_QUANTITY = "DECREASE_QUANTITY";
+export const ADD_WISHLIST = "ADD_WISHLIST";
+export const REMOVE_WISHLIST = "REMOVE_WISHLIST";
+export const ADD_LATEST_PRODUCT = "ADD_LATEST_PRODUCT";
+export const ADD_FILTER_PRODUCTS = "ADD_FILTER_PRODUCTS";
+export const SHOW_SEARCH_BAR = "SHOW_SEARCH_BAR";
+export const WISHLIST_CHANGED = "WISHLIST_CHANGED";

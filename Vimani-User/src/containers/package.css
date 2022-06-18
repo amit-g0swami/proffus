@@ -1,0 +1,27 @@
+.package-icon-box{
+    height:100px;
+    width:100%;
+    border:1px solid #113B6B;
+    border-radius: 100%;
+    margin: auto;
+}
+.line{
+    height:100%;
+    width:100%;
+    border:1px solid #113B6B;
+    margin-top: 50px;
+}
+@media screen and (max-width:480px) {
+    .package-icon-box{
+        height:100px;
+        width:100px;
+        border:1px solid #113B6B;
+        margin:auto;
+    }
+    .line{
+        height: 100%;
+        width: 100%;
+        margin-top: 60px;
+        transform:rotate(90deg);
+    }
+}

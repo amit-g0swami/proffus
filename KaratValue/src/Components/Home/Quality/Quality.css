@@ -1,0 +1,41 @@
+.quality-container {
+  background-color: #fffcf2;
+  width: 100%;
+}
+/* .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+} */
+.quality{
+  margin-top: -60px;
+}
+.qcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+.qtext {
+  text-transform: capitalize;
+}
+.big-text__heading{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.text-center{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 760px) {
+  .row {
+    justify-content: center;
+  }
+  .qcard {
+    width: 100px;
+  }
+}

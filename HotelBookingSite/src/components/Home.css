@@ -1,0 +1,85 @@
+.home__section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home__carousel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 100%;
+    background-color: #00008B;
+    color: #fff;
+    margin: 0 15px;
+    font-size: 4em;
+}
+.carousel__box{
+    border: 1px solid black;
+    margin-right: 10px;
+    border: none;
+    box-shadow: 0px 6px 18px -9px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+}
+.carousel__box > h6{
+color: gray;
+font-size: medium;
+}
+.carbox{
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+.sc-AxiKw.cNRLLS.rec.rec-slider-container {
+    height: 350px;
+}
+.quote__h1{
+    font-family: Lexend;
+font-size: 48px;
+font-weight: 700;
+line-height: 60px;
+letter-spacing: 0em;
+text-align: center;
+color: #206EA7;
+}
+.quote__h4{
+    font-family: Lexend;
+font-size: 16px;
+font-weight: 300;
+line-height: 20px;
+letter-spacing: 0.5em;
+text-align: center;
+color:
+rgba(0, 0, 0, 1);
+}
+.quotes__card__{
+    font-family: Lexend !important;
+font-size: 60px;
+font-weight: 700;
+line-height: 75px;
+letter-spacing: 0em;
+text-align: left;
+/* height: 534px; */
+/* width: 785px; */
+border-radius: nullpx;
+color:rgba(32, 110, 167, 1);
+margin-left: 90px;
+margin-right: 90px;
+margin-top: 90px;
+}
+.some__quotes{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 60px;
+}
+.some__quotes > h4{
+    font-family: Lexend;
+font-size: 20px;
+font-weight: 300;
+line-height: 34px;
+letter-spacing: 0em;
+text-align: left;
+height: 170px;
+width: 1200px;
+border-radius: nullpx;
+}

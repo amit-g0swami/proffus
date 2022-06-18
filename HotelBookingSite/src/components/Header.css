@@ -1,0 +1,106 @@
+.header__app {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: sticky; */
+    /* background-color: white; */
+    background: transparent;
+    z-index: 100;
+    width: 100%;
+    top: 0;
+    position: relative;
+  }
+  .header__icon {
+    /* position: absolute; */
+    object-fit: contain;
+    height: 20px;
+    margin-left: 20px;
+    padding: 20px;
+  }
+  .header__center {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    max-width: fit-content;
+    height: 30px;
+    /* border: 1px solid lightgray; */
+    border-radius: 999px;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    color: black;
+  }
+  .header__center > input {
+    border: none;
+    width: 250px;
+    padding: 10px;
+    outline-width: 0;
+    /* outline: none;  */
+  }
+  .header__right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: auto;
+    margin-right: 80px;
+  }
+  .header__right > button {
+   padding: 10px;
+   padding-left: 60px;
+   padding-right: 60px;
+   font-weight: bold;
+   border: none;
+  }
+  .header__center__button{
+    padding:10px;
+    border: none;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 20px;
+color: #FFFFFF;
+  }
+  .header__button{
+    background-color: lightgrey !important;
+    margin-right: 10px !important;
+width: 202px !important;
+height: 45px !important;
+background: #FFFFFF !important;
+
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+text-align: center;
+color: #000000;
+border-radius:  none !important;
+  }
+  .app__signup {
+    display: flex;
+    flex-direction: column;
+  }
+  .img__css{
+    font-family: Lexend;
+font-size: 36px;
+font-weight: 700;
+line-height: 45px;
+letter-spacing: 0em;
+text-align: left;}
+.app__loginContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__header{
+width: 100px;
+height: 95px;
+font-family: 'Lexend';
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 45px;
+color: #FFFFFF;
+margin-left: 120px;
+}

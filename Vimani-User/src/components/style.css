@@ -1,0 +1,45 @@
+.top-nav-text{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.nav-text{
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 21px;
+    font-family: Work Sans;
+}
+.auth-btn{
+    background: #F8C648;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.15em;
+    color: #000000;
+    padding: 10px 16px;
+    border: none;
+}
+.auth-btn:hover{
+    background: #F8C648;
+    font-family: Work Sans;
+    color: #000000;
+}
+.btn:focus{
+    box-shadow: none!important;
+}
+.footer-heading{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: Work Sans;
+}
+.footer-text{
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+   font-family: Work Sans;
+}

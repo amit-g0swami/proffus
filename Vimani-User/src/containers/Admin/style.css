@@ -1,0 +1,180 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+.admin-panel-main {
+  font-family: "Raleway", sans-serif;
+  /* padding: 20px; */
+}
+.admin-panel {
+  background: #ee9776;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.15);
+  border-radius: 40px;
+  text-align: center;
+}
+.admin-container{
+  padding: 30px 50px 10px 50px;
+}
+/* .active {
+  border-left: 4px solid #ffffff;
+  border-right: 4px solid #ffffff;
+} */
+
+.heading h1 {
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: 0.65em;
+  color: #403d39;
+  margin-top: 12px;
+}
+.heading h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  letter-spacing: 0.45em;
+  margin-top: 12px;
+  color: #403d39;
+}
+.heading h4 {
+  margin-top: 8px;
+}
+.Card {
+  background: #ffffff;
+  box-shadow: 0px 20px 50px -3px rgba(238, 151, 118, 0.2);
+  border-radius: 40px;
+  cursor: pointer;
+  padding: 30px;
+}
+.order-id span {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 4px;
+  text-align: center;
+  color: #000000;
+}
+
+.order-id .o_id {
+  font-weight: bold;
+}
+
+.date-time p {
+  text-align: right;
+  color: #2c6975;
+  font-weight: 500;
+  text-align: right;
+  color: #2c6975;
+}
+.more-info h4,
+.button-details span {
+  font-size: 25px;
+  line-height: 33px;
+  color: #000000;
+  font-weight: 200;
+}
+.not {
+  border-right: none;
+}
+.more-info .text {
+  border-right: 2px solid #000000;
+  padding-right: 45px;
+  border-right: 2px solid #000000;
+}
+
+.button-details span {
+  font-weight: 800;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: #ee9776;
+  float: right;
+}
+.del-cat {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 32px;
+  letter-spacing: 0.5em;
+  color: #000000;
+}
+.span,
+.card .card-body b {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: #e33636;
+  margin-top: 15px;
+}
+.card-title {
+  margin-bottom: 16px;
+}
+.del-icon {
+  color: white;
+  padding: 6px 9px;
+  background-color: red;
+  border-radius: 21px;
+  position: absolute;
+  font-size: 12px;
+  top: 0;
+  right: 0;
+  margin-right: 17px;
+  margin-top: 10px;
+}
+.card-title {
+  display: flex;
+  flex-direction: column;
+}
+.card {
+  padding: 15px;
+}
+.input-admin {
+  background: #ffffff;
+  box-shadow: 0px 20px 50px -3px rgba(238, 151, 118, 0.2);
+  border-radius: 20px;
+  margin-bottom: 20px;
+  border: none;
+  outline: none;
+  padding: 23px 20px;
+  width: 100%;
+}
+input[type="file"] {
+  color: rgba(0, 0, 0, 0);
+}
+.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+.button-submit {
+  background: #ee9776;
+  box-shadow: 0px 20px 50px -3px rgba(238, 151, 118, 0.2);
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 10px 20px;
+  width: 80%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  display: none;
+}
+.admin-loading {
+  display: flex;
+  align-items: end;
+}
+.admin-sidebar{
+  display: flex;
+  flex-direction: column;
+} 
+@media screen and (max-width:480px) {
+  .admin-sidebar{
+    flex-direction: row;
+    overflow-x: scroll;
+  }  
+}
+.align{
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+}

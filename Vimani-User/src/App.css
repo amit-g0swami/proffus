@@ -1,0 +1,15 @@
+.div-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.custom-btn{
+    background-color: #113B6B;
+    font-family: Work Sans;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+color: #FFFFFF;
+}

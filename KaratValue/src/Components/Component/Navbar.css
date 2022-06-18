@@ -1,0 +1,25 @@
+.nav {
+  width: 90vw;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.searchbox {
+  border-radius: 25px;
+}
+.items {
+  margin-right: 200px;
+}
+.navbar-light .navbar-nav .nav-link {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ee9776;
+}
+ul {
+  padding-left: 8px;
+  margin-bottom: 0;
+  cursor: pointer;
+}

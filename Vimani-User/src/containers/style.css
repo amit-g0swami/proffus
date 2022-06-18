@@ -1,0 +1,166 @@
+.div-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home-text1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+}
+.home-text2{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #000000;
+}
+.home-btn1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.15em;
+    text-decoration-line: underline;
+    color: #113B6B;
+    text-transform: uppercase;
+}
+.auth-container{
+    background: url('../assets/auth.png');
+    color: white;
+    padding: 30px 10px 50px 10px;
+}
+.auth-heading{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 32px;
+    line-height: 38px;
+    letter-spacing: 0.2em;
+    color: #FFFFFF;
+}
+.custom-btn1{
+    background-color: #113B6B;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 0px;
+}
+.custom-btn1:hover{
+    background-color: #113B6B;
+    color: #FFFFFF;
+}
+.custom-btn1:focus{
+    background-color: #113B6B;
+    color: #FFFFFF;
+    box-shadow: none!important;
+}
+.text3{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    border: none;
+}
+.text4{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 21px;
+    color: #113B6B;
+}
+.text5{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0.65em;
+    color: #000000;
+}
+.form-control{
+    background: white;
+    border-radius: 0px;
+    border: none!important;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+.form-select{
+    border-radius: 0px;
+    border: none!important;
+}
+.form-select:focus{
+    box-shadow: none; 
+    border: none;
+}
+#basic-addon2{
+    background-color: #FFFFFF;
+    border: none;
+    border-radius: 0px;
+}
+.heading1{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 42px;
+    color: #000000;
+}
+.help-table tr{
+   background: white;
+   border: 2px solid black;
+   outline:10px solid #E5E5E5;
+}
+.profile-div{
+    background: #FFFFFF;
+    box-shadow: 0px 40px 50px -20px rgba(0, 0, 0, 0.25);
+    cursor:pointer;
+}
+.profile .form-check-input:checked{
+    background-color:#113B6B;
+    border-color:#113B6B;
+}
+.congrats-text{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 1.20em;
+    color: #113B6B;
+}
+.wallet-heading{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 75px;
+    color: #113B6B;
+}
+.cardshadow{
+    -webkit-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 4px 16px 0px rgba(0,0,0,0.75);;
+}
+.center{
+display: flex;
+align-items: center;
+justify-content: center;
+}

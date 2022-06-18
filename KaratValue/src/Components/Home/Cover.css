@@ -1,0 +1,78 @@
+.right.carousel-control,
+.left.carousel-control {
+  display: none;
+}
+.img-fluid-modify {
+  width: 100%;
+  height: 750px;
+}
+.cover{
+  position: absolute;
+  z-index: 100;
+  margin-top: 350px;
+  width: 700px;
+  padding: 30px;
+}
+.cover__quote{
+  color: #ee9776;
+    font-family: "Raleway", sans-serif;
+    font-weight: 600;
+    font-size: 40px;
+}
+@media screen and (max-width: 760px) {
+  .carousel {
+    min-width: 100vw;
+    margin-top: 100px;
+    position: relative;
+    right: 0;
+    left: 0.3rem;
+  }
+  .img-fluid-modify {
+    width: 100%;
+    height: 500px;
+  }
+  .cover{
+    position: absolute;
+    z-index: 100;
+    margin-top: 300px;
+    width: 500px;
+    padding: 30px;
+  }
+  .cover__quote{
+    color: #ee9776;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      font-size: 30px;
+  }
+}
+@media screen and (max-width: 550px) {
+  .carousel {
+    min-width: 100vw;
+    margin-top: 100px;
+    position: relative;
+    right: 0;
+    left: 0.3rem;
+  }
+  .img-fluid-modify {
+    width: 100%;
+    padding-top: 89px;
+    height: 400px;
+  }
+  .cover{
+    position: absolute;
+    z-index: 100;
+    margin-top: 200px;
+    width: 350px;
+    padding: 30px;
+  }
+  .cover__quote{
+    color: #ee9776;
+      font-family: "Raleway", sans-serif;
+      font-weight: 600;
+      font-size: 20px;
+  }
+}
+
+a {
+  text-decoration: none;
+}

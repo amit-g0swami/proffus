@@ -1,0 +1,25 @@
+.brow{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+}
+.brow img{
+    width: 100px;
+}
+.big-text__heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+@media screen and (max-width:760px) {
+    .brow{
+        justify-content: space-between;
+        margin-top: 50px;
+        min-width: 100vw;
+    }
+    .brow img{
+        width: 50px;
+    }
+}

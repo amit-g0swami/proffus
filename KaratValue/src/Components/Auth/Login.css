@@ -1,0 +1,161 @@
+.profile-heading {
+  width: fit-content;
+  padding: 10px 40px;
+  text-align: center;
+  color: #ee9776;
+  text-transform: capitalize;
+  border-bottom: 2px solid #ee9776;
+}
+
+.profile-footer {
+  width: 300px;
+  padding: 20px 40px;
+  text-align: center;
+  color: #ee9776;
+  text-transform: uppercase;
+  border-bottom: 2px solid #ee9776;
+  font-size: 22px;
+  margin-top: 20px;
+}
+.form {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin-top: 50px;
+  padding: 17px 67px;
+}
+form {
+  width: 100%;
+}
+.profile-row {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.profile-row img {
+  width: 30px;
+}
+.input {
+  margin-bottom: 20px;
+}
+.input input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 27px -3px rgba(14, 121, 189, 0.25);
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+#new_pass {
+  flex: inherit;
+  margin-top: 50px;
+}
+.input-checkbox {
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.input-checkbox input[type="checkbox"] {
+  outline: 2px solid #ee9776;
+  border: none;
+}
+
+.full-width {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.full-width img {
+  width: 30px;
+  height: 30px;
+}
+
+.full-width input {
+  width: 100%;
+  height: 40px;
+  border-radius: 20px;
+  background: #ffffff;
+  box-shadow: 0px 0px 27px -3px rgba(14, 121, 189, 0.25);
+  outline: none;
+  border: none;
+  padding: 10px;
+}
+
+.cross {
+  cursor: pointer;
+  position: relative;
+  right: 50px;
+}
+
+.full-width .cross {
+  top: 5px;
+}
+
+.profile-row.btn {
+  width: 100%;
+}
+
+.profile-row.btn button {
+  text-align: center;
+  margin-top: 30px;
+  width: 100%;
+  padding: 6px 0px;
+  outline: none;
+  border-radius: 20px;
+}
+
+.change-password {
+  background: white;
+  border: 2px solid #ee9776;
+  color: #ee9776;
+}
+
+.save {
+  background: #ee9776;
+  color: white;
+  border: none;
+  width: 60%;
+}
+@media screen and (max-width: 1081px) {
+  .profile-row {
+    flex-direction: column;
+    align-items: center;
+  }
+  .profile-row input {
+    margin-top: 30px;
+  }
+}
+@media screen and (max-width: 760px) {
+  .profile-row {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile-row.btn button {
+    width: 200px;
+  }
+  .form {
+    flex-direction: column;
+  }
+  .profile-row img {
+    width: 20px;
+  }
+
+  .input-icon {
+    position: relative;
+    top: 25px;
+    right: 20px;
+  }
+
+  .cross {
+    position: relative;
+    left: 200px;
+    bottom: 26px;
+  }
+  .profile-footer {
+    width: 50%;
+    padding: 10px 0;
+  }
+}
